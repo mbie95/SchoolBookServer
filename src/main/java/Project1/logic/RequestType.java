@@ -1,0 +1,22 @@
+package Project1.logic;
+
+/**
+ *
+ * @author marcin
+ */
+//tasks which can be operated by server
+public enum RequestType {
+    GET_STUDENT_BY_ID,
+    CHANGE_STUDENT_ADDRESS,
+    GET_STUDENT_GRADES,
+    GET_STUDENT_GRADE_FROM,
+    GET_TEACHER_BY_ID,
+    CHANGE_TEACHER_ADDRESS,
+    GET_TEACHER_ALL_HIS_STUDENTS_GRADES,
+    GET_TEACHER_PROVIDED_ALL_GRADES_FROM,
+    ADD_TEACHER_STUDENT_GRADE,
+    CHANGE_TEACHER_STUDENT_GRADE,
+    DELETE_TEACHER_STUDENT_GRADE,
+    LOG_STUDENT,
+    LOG_TEACHER;
+}
